@@ -78,7 +78,7 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/img/logo-light.png" alt="" />
+                <img src="/img/final-logo.png" alt="" />
               </div>
               <div className="social">
                 <a href="#0">

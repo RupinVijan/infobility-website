@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import React from "react";
 import styles from '../styles/Home.module.css'
-import DarkTheme from "./layouts/Dark"
-import Navbar from "./components/navbar/Navbar"
-import IntroWithSlider from "./components/slider/intro-with-slider"
-import Services from './components/services/services'
-import Footer from './components/footer/footer';
-import CallToAction from './components/call-to-action/call-to-action';
-import Blogs2 from './components/blog/blogs2';
+import DarkTheme from "../comp/layouts/Dark"
+import Navbar from "../comp/components/navbar/navbar"
+import IntroWithSlider from "../comp/components/slider/intro-with-slider"
+import Services from '../comp/components/services/services'
+import Footer from '../comp/components/footer/footer';
+import CallToAction from '../comp/components/call-to-action/call-to-action';
+import Blogs2 from '../comp/components/blog/blogs2';
 
 export default function Home() {
   const fixedSlider = React.useRef(null);
