@@ -3,6 +3,7 @@ import ContactFromDate from "./form-info.json";
 
 const ContactForm = () => {
   return (
+    <>
     <section className="contact section-padding">
       <div className="container">
         <div className="row">
@@ -59,19 +60,19 @@ const ContactForm = () => {
               </h3>
               <div className="item mb-40">
                 <h5>
-                  <a href="#0">{ContactFromDate.email}</a>
+                  <a href="mailto:infobility.ca@gmail.com">{ContactFromDate.email}</a>
                 </h5>
-                <h5>{ContactFromDate.phone}</h5>
+                {/* <h5>{ContactFromDate.phone}</h5> */}
               </div>
-              <h3 className="wow" data-splitting>
-                Visit Us.
-              </h3>
+              {/* <h3 className="wow" data-splitting> */}
+                {/* Visit Us. */}
+              {/* </h3> */}
               <div className="item">
-                <h6>
-                  {ContactFromDate.location.first}
-                  <br />
-                  {ContactFromDate.location.second}
-                </h6>
+                {/* <h6> */}
+                  {/* {ContactFromDate.location.first} */}
+                  {/* <br /> */}
+                  {/* {ContactFromDate.location.second} */}
+                {/* </h6> */}
               </div>
               <div className="social mt-50">
                 <a href="#0" className="icon">
@@ -92,6 +93,7 @@ const ContactForm = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
