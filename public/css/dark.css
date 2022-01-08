@@ -9046,3 +9046,7 @@ a.col-md-12.popimg {
     padding: 0;
 }
 }
+
+.item-box:hover{
+  box-shadow: 12px 12px 14px #000000;
+}

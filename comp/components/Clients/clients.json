@@ -2,38 +2,38 @@
     {
         "id": 1,
         "lightImage": "/img/clients/brands/light/01.png",
-        "darkImage": "/img/clients/brands/dark/01.png",
-        "url": "www.Vie.com"
+        "darkImage": "https://img.icons8.com/color/72/nodejs.png",
+        "url": "Node.js"
     },
     {
         "id": 2,
         "lightImage": "/img/clients/brands/light/02.png",
-        "darkImage": "/img/clients/brands/dark/02.png",
-        "url": "www.Vie.com"
+        "darkImage": "https://img.icons8.com/dotty/2x/react.png",
+        "url": "React.js"
     },
     {
         "id": 3,
         "lightImage": "/img/clients/brands/light/03.png",
-        "darkImage": "/img/clients/brands/dark/03.png",
-        "url": "www.Vie.com"
+        "darkImage": "https://img.icons8.com/ios/2x/wordpress.png",
+        "url": "WordPress"
     },
     {
         "id": 4,
         "lightImage": "/img/clients/brands/light/04.png",
-        "darkImage": "/img/clients/brands/dark/04.png",
-        "url": "www.Vie.com"
+        "darkImage": "https://img.icons8.com/ios/2x/python.png",
+        "url": "Python"
     },
     {
         "id": 5,
         "lightImage": "/img/clients/brands/light/05.png",
-        "darkImage": "/img/clients/brands/dark/05.png",
-        "url": "www.Vie.com"
+        "darkImage": "https://img.icons8.com/ios-filled/2x/flask.png",
+        "url": "Flask"
     },
     {
         "id": 6,
         "lightImage": "/img/clients/brands/light/06.png",
-        "darkImage": "/img/clients/brands/dark/06.png",
-        "url": "www.Vie.com"
+        "darkImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAeFBMVEUAAAD///+VlZWpqanm5uZDQ0PAwMDDw8NhYWF3d3fh4eG4uLg9PT2ZmZmkpKQiIiJsbGzT09OxsbHx8fFNTU2enp46OjonJyfJycmJiYkXFxd2dnYKCgpeXl7v7+80NDRVVVV/f39QUFDZ2dmOjo5ISEgbGxslJSWd2tO4AAAEy0lEQVR4nO3b63aiMBQF4BxF6r0oKt4rRTvv/4ZzsLYinAS6bCZM1v5+VSxttgRyElApAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9sXTfAtsT3hK9j1y2wre+6AbbtXl23wLLo4LoFlvU6rltg2X60d90Ey0bvrltg2WTiugWWHWauW2DZ/vjmugmWDQeuW2DZfO26BZal5HnBfaHIdRPs2sYj102wbHZ03QLLlnRy3QS7duR5MbOioesmfNpMOonp/WTS0TgrtVhOVrodAxqrhXZnNln8fhrJkchYOPZIa5/vrTtQI9rwx6ffmW0sxBEE/K9Sw/ucMOyKpiof8Ggq7ra7fm6nefH3Awqmhdfzk4U4Av63RIbimBOaWsJHSRrUE6KPysaQwh827lcENJ2b+iknNK6TrYmErZnUL0J6+WHjfkVAXT6b9KdEXcJtTNXiuiseLYcJD0Ta1b66hKpPdC5tiiiWftNhQmXop7UJ+YBR72FDEsu7uEyohpXj8KU+Ie8cPLyeXf9kldOEPe31tEHCFdG88HJZCvzNaUI10fXTBgl5nlsYMt6JNMWK24R8fZcXppsk5LbT16LvR0xL7W85TTgmEkvMRgn3x+8usNYX3I4TcnUiNq1RQnWi25HrGAYe1wn5Eij102YJ+TymfO3+3VRPO0v4VTon5XHtqmFCPo/5CroPhALnm/OEPB/Iqu83TcjDfKheKDZMNt0n5KtEtZ/WzC3udjzNIjKtcLcgIVfRl/L7nDAYCoLKmDDnmaZxetSChFwyV/qpdo5fWQp9442VD6ioDQnVqLI+xgkHq7GgcsLNOKFwIt+1IiG/LI37nLDZYwY8Xpx1axqf2pHwUB73m15LF/mY3zX+cjsSqmnpddOE8bVuyyjWPznTkoS84WFq0DDhbSRcmdYm25Lw8thPmyXcEO2uP6SGsq0tCfmSUdzSKGHvPgceaaeH7hJW7p9kxWGtUcLiOsZRN8VvUcI3Ktz3a5JwXpxbroRi4JOcsMNzm8Mwjq3dqBIS8ll1L8kaJIwez72OrjqVE87X/JEue33jUPoMKSGXJ6evH+sTbqnU8rVmWUubMMqXzU+2HksRE+7v51J9woxKN7NfY3m5wHAMs4EwNf0lYkI1+J751yZcVsu6iMTVKG1C9c6HPbP17JSckC/6t2bXJeyTMKmUqzd9QrYKjFX7EzQJt/Gtn9Yk/IjF+cSQjtVHhaoJT3x1Ga3VLu8wG90g8yxNQu5pn2N4TcK1vG6RkLBgU0q4PHK53j3zdfhCYbTRLrM+S5eQB7nrg6/mVYyzfINUrt5KCSP+CKNsmN8wWYRBZroR/RRtQhVfL5GccD0ShePyHYuisLpy56imOWpW8/NV8Lz1F/2TBoetZli4/eHyTcS1aanRnijVjkTT/Hr6kQ400j+rdKC/xPcGaenNQ9q6LyXMxFu5PnnVnmXe6DdbwfifLaVHSfySOXnI55/y/TlmPhVj37+0pLr+99PZznULbEuGvn8BVEX+99Op9/1UvRgfBfdB4n19qvq+f8dOqY3v35NUytoySmu8nVy3wLqe9+O+6nlfgu+9HxTV3vuDCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF77C51rLm5JizlVAAAAAElFTkSuQmCC",
+        "url": "Next.js"
     },
     {
         "id": 7,
