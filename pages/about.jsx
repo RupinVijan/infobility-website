@@ -22,9 +22,9 @@ export default function About() {
             <Navbar />
             <PageHeader />
             <div className="main-content">
-      <Services style="4item" />
-      <Blogs2 />
-      <Team />
+      {/* <Services style="4item" /> */}
+      {/* <Blogs2 /> */}
+      {/* <Team /> */}
       <MinimalArea />
       <CallToAction />
       <Footer />

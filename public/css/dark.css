@@ -1633,6 +1633,8 @@ span:hover {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
+  color: #000;
+  background: white;
 }
 
 .butn:hover .char {
@@ -2270,7 +2272,7 @@ span:hover {
   -webkit-transition: all 0s;
   -o-transition: all 0s;
   transition: all 0s;
-  opacity: 1;
+  /* opacity: 1; */
   visibility: visible;
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -9049,4 +9051,8 @@ a.col-md-12.popimg {
 
 .item-box:hover{
   box-shadow: 12px 12px 14px #000000;
+}
+.justifyyy-content-center{
+  -webkit-box-pack: center !important;
+  justify-content: flex-end !important;
 }

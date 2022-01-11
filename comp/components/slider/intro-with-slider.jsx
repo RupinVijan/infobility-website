@@ -100,10 +100,10 @@ const IntroWithSlider = ({ sliderRef }) => {
                 <div
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
-                  data-overlay-dark="6"
+                  data-overlay-dark="1"
                 >
                   <div className="container">
-                    <div className="row justify-content-center">
+                    <div className="row justifyyy-content-center">
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center mt-30">
                           <h1 className="color-font">{slide.title}</h1>

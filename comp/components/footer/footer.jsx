@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link';
 
 const Footer = ({ hideBGCOLOR }) => {
   return (
@@ -24,6 +25,14 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="cont">
                     <h6>Email Us</h6>
                     <p>support@gmail.com</p>
+                    <Link href="/contact">
+                <a
+                  className="butn bord curve wow fadeInUp"
+                  data-wow-delay=".5s"
+                >
+                  <span>Get In Touch</span>
+                </a>
+              </Link>
                   </div>
                 </li>
                 {/* <li>

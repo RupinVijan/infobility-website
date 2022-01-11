@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link';
 
 const Blogs2 = () => {
     return (
@@ -12,9 +13,14 @@ const Blogs2 = () => {
                         <h3>What Our Trending News.</h3>
                         <p>We provide company and finance service for
                             startups and company business.</p>
-                        <a href="#0">
-                            <span>More Blog Posts</span>
-                        </a>
+                            <Link href="/contact">
+                <a
+                  className="butn bord curve wow fadeInUp"
+                  data-wow-delay=".5s"
+                >
+                  <span>Get In Touch</span>
+                </a>
+              </Link>
                     </div>
                 </div>
                 <div className="col-lg-7 offset-lg-1">
