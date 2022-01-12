@@ -75,12 +75,6 @@ const Footer = ({ hideBGCOLOR }) => {
                     <span className="date">14 sep 2021</span>
                   </div>
                 </li>
-                <li>
-                  <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
-                  </div>
-                </li>
               </ul>
             </div>
           </div>
@@ -100,13 +94,13 @@ const Footer = ({ hideBGCOLOR }) => {
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </div>
               <div className="copy-right">
                 <p>
-                  © 2021, Vie Template. Made with passion by
-                  <a href="#0">ThemesCamp</a>.
+                  © 2021,
+                  <a href="/">InfoBility</a> all Rights Reserved.
                 </p>
               </div>
             </div>

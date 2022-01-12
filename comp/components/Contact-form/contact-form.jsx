@@ -1,7 +1,30 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 import ContactFromDate from "./form-info.json";
+import Swal from "sweetalert2";
 
 const ContactForm = () => {
+  const maile = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_523lpz9",
+        "template_ovniwmr",
+        e.target,
+        "user_oRfXTWxb8CH2Eje8bkNI8"
+      )
+      .then((res) => console.log(res))
+      .catch((error) => console.log(error));
+      
+      Swal.fire({
+        title: 'Success',
+        text: 'Query submitted successfully. We will be replying soon',
+        icon: 'success'
+    });
+    e.target['name'].value="";
+    e.target['email'].value="";
+    e.target['message'].value="";
+  };
   return (
     <>
     <section className="contact section-padding">
@@ -11,7 +34,7 @@ const ContactForm = () => {
             <div className="form md-mb50">
               <h4 className="fw-700 color-font mb-50">Get In Touch.</h4>
 
-              <form id="contact-form" method="post" action="contact.php">
+              <form id="contact-form" action="" onSubmit={maile}>
                 <div className="messages"></div>
 
                 <div className="controls">
@@ -82,10 +105,10 @@ const ContactForm = () => {
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
