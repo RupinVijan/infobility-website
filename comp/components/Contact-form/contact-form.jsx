@@ -8,17 +8,17 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_523lpz9",
-        "template_ovniwmr",
+        "service_pc7c8rl",
+        "template_74cgfsk",
         e.target,
-        "user_oRfXTWxb8CH2Eje8bkNI8"
+        "user_X81Py2WXDqIFqgsjtm2q1"
       )
       .then((res) => console.log(res))
       .catch((error) => console.log(error));
       
       Swal.fire({
-        title: 'Success',
-        text: 'Query submitted successfully. We will be replying soon',
+        title: 'Thank You!',
+        text: 'Your response has been recorded successfully! Our team will be contacting you soon.',
         icon: 'success'
     });
     e.target['name'].value="";
@@ -101,9 +101,9 @@ const ContactForm = () => {
                 <a href="#0" className="icon">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0" className="icon">
+                {/* <a href="#0" className="icon">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </a> */}
                 <a href="#0" className="icon">
                   <i className="fab fa-linkedin"></i>
                 </a>

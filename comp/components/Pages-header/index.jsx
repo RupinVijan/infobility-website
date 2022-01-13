@@ -12,6 +12,7 @@ const PagesHeader = () => {
                 {/* Our dedicated team of creatives is bursting with talent,
                 experience and passion for what we do. */}
                 Let’s design your website with experts
+                Let’s design your website with experts
               </h1>
             </div>
           </div>

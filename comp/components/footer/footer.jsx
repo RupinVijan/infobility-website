@@ -25,7 +25,11 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="cont">
                     <h6>Email Us</h6>
                     <p>support@gmail.com</p>
-                    <Link href="/contact">
+                  </div>
+                </li>
+                <li>
+                  <div className="cont">
+                  <Link href="/contact">
                 <a
                   className="butn bord curve wow fadeInUp"
                   data-wow-delay=".5s"
@@ -35,13 +39,6 @@ const Footer = ({ hideBGCOLOR }) => {
               </Link>
                   </div>
                 </li>
-                {/* <li>
-                  <span className="icon pe-7s-call"></span>
-                  <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+87986451666</p>
-                  </div>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -87,9 +84,9 @@ const Footer = ({ hideBGCOLOR }) => {
                 <a href="#0">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
+                {/* <a href="#0">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </a> */}
                 <a href="#0">
                   <i className="fab fa-instagram"></i>
                 </a>

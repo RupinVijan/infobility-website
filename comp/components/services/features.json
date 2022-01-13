@@ -3,24 +3,24 @@
         "id": 1,
         "icon": "pe-7s-display1",
         "title": "Web Design & Development",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "content": "Assisying in designing your website and creating a visual story"
     },
     {
         "id": 2,
         "icon": "pe-7s-paint-bucket",
         "title": "Digital Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "content": "Help you grow digitally by branding your website through google SEO scripts"
     },
     {
         "id": 3,
         "icon": "pe-7s-diskette",
         "title": "Branding & Creative",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
+        "content": " Looking up for digital growth and creating a niche for your brand"
     },
     {
         "id": 4,
         "icon": "pe-7s-phone",
         "title": "Application Development",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "content": "Turning your vision into a viable mobile application"
     }
 ]

@@ -3,12 +3,11 @@ import Head from 'next/head'
 import Navbar from '../comp/components/navbar/navbar'
 import DarkTheme from '../comp/layouts/Dark'
 import PageHeader from "../comp/components/Pages-header/index"
-import Services from '../comp/components/services/services'
-import Blogs2 from '../comp/components/blog/blogs2'
 import CallToAction from '../comp/components/call-to-action/call-to-action'
 import Footer from '../comp/components/footer/footer'
-import Team from '../comp/components/Team/team'
 import MinimalArea from '../comp/components/Minimal-Area/minimal-area'
+import Intro2 from '../comp/components/Intro2/intro2'
+import Intro3 from '../comp/components/Intro2/intro3'
 
 export default function About() {
     return (
@@ -26,6 +25,9 @@ export default function About() {
       {/* <Blogs2 /> */}
       {/* <Team /> */}
       <MinimalArea />
+      <Intro2 />
+      <Intro3 />
+      <Intro2 />
       <CallToAction />
       <Footer />
       </div>
