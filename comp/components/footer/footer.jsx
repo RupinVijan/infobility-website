@@ -81,16 +81,16 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src="/img/final-logo.png" alt="" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a href="#0" target="_blank">
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 {/* <a href="#0">
                   <i className="fab fa-twitter"></i>
                 </a> */}
-                <a href="#0">
+                <a href="https://www.instagram.com/infobility.ca/" target="_blank">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
+                <a href="#0" target="_blank">
                   <i className="fab fa-linkedin"></i>
                 </a>
               </div>

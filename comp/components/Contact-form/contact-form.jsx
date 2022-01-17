@@ -23,6 +23,7 @@ const ContactForm = () => {
     });
     e.target['name'].value="";
     e.target['email'].value="";
+    e.target['ph_no'].value="";
     e.target['message'].value="";
   };
   return (
@@ -54,6 +55,15 @@ const ContactForm = () => {
                       type="email"
                       name="email"
                       placeholder="Email"
+                      required="required"
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input
+                      id="ph_no"
+                      type="number"
+                      name="ph_no"
+                      placeholder="Phone Number"
                       required="required"
                     />
                   </div>
@@ -98,16 +108,16 @@ const ContactForm = () => {
                 {/* </h6> */}
               </div>
               <div className="social mt-50">
-                <a href="#0" className="icon">
+                <a href="#0" className="icon" target="_blank">
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 {/* <a href="#0" className="icon">
                   <i className="fab fa-twitter"></i>
                 </a> */}
-                <a href="#0" className="icon">
+                <a href="#0" target="_blank" className="icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#0" className="icon">
+                <a href="https://www.instagram.com/infobility.ca/" target="_blank" className="icon">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>

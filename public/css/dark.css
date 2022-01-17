@@ -4804,7 +4804,7 @@ span:hover {
 
 .clients .brands .item {
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgb(163 163 163 / 54%);
   height: 160px;
   line-height: 160px;
 }
@@ -4826,10 +4826,11 @@ span:hover {
   transition: all .4s;
   max-width: 75px;
   margin: auto;
+  filter:invert(1);
 }
 
 .clients .brands .img .link {
-  font-size: 13px;
+  font-size: 20px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
