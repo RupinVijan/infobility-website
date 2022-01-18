@@ -136,13 +136,13 @@ const IntroWithSlider = ({ sliderRef }) => {
         {/* <div ref={paginationRef} className="swiper-pagination top botm"></div> */}
 
         <div className="social-icon">
-          <a href="#0">
+          <a href="https://www.facebook.com/profile.php?id=100075969739857">
             <i className="fab fa-facebook-f"></i>
           </a>
           {/* <a href="#0">
             <i className="fab fa-twitter"></i>
           </a> */}
-          <a href="#0">
+          <a href="https://www.instagram.com/infobility.ca/">
             <i className="fab fa-instagram"></i>
           </a>
           <a href="#0">

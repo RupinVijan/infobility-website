@@ -81,7 +81,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src="/img/final-logo.png" alt="" />
               </div>
               <div className="social">
-                <a href="#0" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=100075969739857" target="_blank">
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 {/* <a href="#0">

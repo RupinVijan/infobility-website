@@ -108,7 +108,7 @@ const ContactForm = () => {
                 {/* </h6> */}
               </div>
               <div className="social mt-50">
-                <a href="#0" className="icon" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=100075969739857" className="icon" target="_blank">
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 {/* <a href="#0" className="icon">
