@@ -45,31 +45,36 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Recent News</h5>
+                <h5>Infobility Digital</h5>
               </div>
               <ul>
                 <li>
-                  <div className="img">
-                    <img src="/img/blog/1.jpg" alt="" />
-                  </div>
+                  
                   <div className="sm-post">
                     <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress
-                      Journal.
+                    Website Development
                     </p>
-                    <span className="date">14 sep 2021</span>
                   </div>
                 </li>
                 <li>
-                  <div className="img">
-                    <img src="/img/blog/2.jpg" alt="" />
-                  </div>
                   <div className="sm-post">
                     <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress
-                      Journal.
+                    Digital marketing
                     </p>
-                    <span className="date">14 sep 2021</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="sm-post">
+                    <p>
+                    Website marketing for startup businesses.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="sm-post">
+                    <p>
+                    Application Development
+                    </p>
                   </div>
                 </li>
               </ul>

@@ -3,7 +3,7 @@
         "id": 1,
         "icon": "pe-7s-display1",
         "title": "Web Design & Development",
-        "content": "Assisting in designing your website and creating a visual story"
+        "content": "Our team will assist you in designing and developing your website tailored to your unique business goals. "
     },
     {
         "id": 2,
@@ -21,6 +21,6 @@
         "id": 4,
         "icon": "pe-7s-phone",
         "title": "Application Development",
-        "content": "Turning your vision into a viable mobile application"
+        "content": "Turning your vision into a viable mobile application & native apps for ios and android."
     }
 ]

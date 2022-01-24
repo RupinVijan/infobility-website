@@ -7,6 +7,7 @@ import ContactForm from '../comp/components/Contact-form/contact-form'
 import Footer from '../comp/components/footer/footer'
 
 export default function Contact() {
+    // const [Trigger, setTrigger] = useState(false);
     return (
         <>
         <Head >

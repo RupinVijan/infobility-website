@@ -28,7 +28,7 @@ const Blogs2 = () => {
                         {/* <a target="_blank"> */}
                     <div className="item wow fadeInUp" data-wow-delay=".3s">
                         <div className="img valign">
-                            <img src="https://www.cityam.com/wp-content/uploads/2021/08/Bitcoin-Illustrations-of-Cryptocurrency-1320843096-2.jpg" alt="" />
+                            <img src="https://www.cityam.com/wp-content/uploads/2021/08/Bitcoin-Illustrations-of-Cryptocurrency-1320843096-2.jpg"  style={{width:'240px'}} alt="" />
                         </div>
                         <div className="cont valign">
                             <div>
@@ -78,7 +78,7 @@ const Blogs2 = () => {
                         {/* <a target="_blank"> */}
                     <div className="item wow fadeInUp" data-wow-delay=".3s">
                         <div className="img valign">
-                            <img src="https://static01.nyt.com/images/2021/12/30/business/00metaverse/00metaverse-superJumbo.jpg" alt=""  />
+                            <img src="https://static01.nyt.com/images/2021/12/30/business/00metaverse/00metaverse-superJumbo.jpg"  style={{width:'240px'}} alt=""  />
                         </div>
                         <div className="cont valign">
                             <div>
