@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import ContactFromDate from "./form-info.json";
 import Swal from "sweetalert2";
 
-const ContactForm = () => {
+const ContactForm = (props , {img}) => {
   const maile = (e) => {
     e.preventDefault();
     emailjs
@@ -135,6 +135,38 @@ const ContactForm = () => {
         </div>
       </div>
     </section>
+    <section
+        className="call-action section-padding sub-bg bg-img"
+        style={{ backgroundImage: `url(${img ? img : "/img/patrn.svg"})` }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 col-lg-9">
+              <div className="content sm-mb30">
+                {/* <Split> */}
+                  <h6 className="wow words chars splitting" data-splitting>
+                   Want To Partner 
+                  </h6>
+                  <h2 className="wow words chars splitting" data-splitting>
+                    in Your<br /> <b className="back-color"> next project?</b>
+                    .
+                  </h2>
+                {/* </Split> */}
+              </div>
+            </div>
+
+            <div className="col-md-4 col-lg-3 valign">
+                <button className="butn bord curve mt-30"  onClick={
+                  ()=>{
+                    props.setTrigger(true)
+                  }
+                }>
+                  <span>Want to partner ?</span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

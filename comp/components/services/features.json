@@ -9,18 +9,18 @@
         "id": 2,
         "icon": "pe-7s-paint-bucket",
         "title": "Digital Marketing",
-        "content": "Help you grow digitally by branding your website through google SEO scripts"
+        "content": "Help you grow digitally by branding your website through google SEO scripts."
     },
     {
         "id": 3,
         "icon": "pe-7s-diskette",
         "title": "Branding & Creative",
-        "content": " Looking up for digital growth and creating a niche for your brand"
+        "content": " Looking up for digital growth and creating a niche for your brand."
     },
     {
         "id": 4,
         "icon": "pe-7s-phone",
         "title": "Application Development",
-        "content": "Turning your vision into a viable mobile application & native apps for ios and android."
+        "content": "Turning your vision into a viable mobile application & native apps for IOS and Android."
     }
 ]

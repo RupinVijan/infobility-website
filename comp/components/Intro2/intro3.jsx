@@ -2,25 +2,24 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Intro3 = ({ sliderRef }) => {
+const Intro3 = (props) => {
   return (
-    <header ref={sliderRef} className="slider-st valign position-re">
+    <header  className="slider-st valign position-re">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="img">
-              <img src="/img/slid/001.jpg" alt="" />
+              <img src={props.imgg} alt="" />
             </div>
           </div>
           <div className="col-lg-6 valign">
             <div className="cont md-mb50">
               <div className="sub-title mb-5">
-                <h6>Digital Consulting Agency</h6>
+              <h6>{props.topic}</h6>
               </div>
-              <h1 className="mb-10 fw-600">Unique Business Consulting.</h1>
+              <h1 className="mb-10 fw-600">{props.heading}</h1>
               <p>
-                We help our clients succeed by creating brand identities,
-                digital experiences, and print materials.
+                {props.content}
               </p>
               <Link href="/contact">
                 <a className="butn bord curve mt-30">

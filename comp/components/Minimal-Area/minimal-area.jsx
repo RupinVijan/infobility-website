@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-const MinimalArea = () => {
+const MinimalArea = (props) => {
   // React.useEffect(() => {
   //   setTimeout(() => {
   //     var imageDown = document.getElementsByClassName("thumparallax-down");
@@ -22,42 +22,49 @@ const MinimalArea = () => {
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="/img/min-area.jpg"
+                src="https://image.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg"
                 alt=""
               />
             </div>
           </div>
           <div className="col-lg-6 valign">
             <div className="content pt-0">
-              <h4 className="wow color-font">About us.</h4>
+              <h4 className="wow color-font">Development Process</h4>
               <p className="wow txt" data-splitting>
-                Our creative Ad agency is ranked among the finest in the US. We
-                cultivate smart ideas for start-ups and seasoned players.
+              Infobility team is composed of Graphic Designers and Full Stack developers. Our creative Team members take the highest level of pride in their work. 
+.
               </p>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
-                  <h6>
-                    <span>1</span> Our Mission
+                  <h6 onClick={()=>{
+                    props.setTo("First")
+                  }}>
+                    <span>1</span> Front-end Web Development
                   </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
+                  {/* <p>
+                  Our team optimizes and develops your website with the latest development languages so that a user can see and interact with them directly.
+                  </p> */}
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
-                  <h6>
-                    <span>2</span> Our Goals
+                  <h6 onClick={()=>{
+                    props.setTo("Second")
+                  }}>
+                    <span>2</span> Back-end Web Development
                   </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
+                  {/* <p>
+                  Our team focuses primarily on the development of databases, backend logic, APIs and Servers for your business website. 
+                  </p> */}
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
-                  <h6>
-                    <span>3</span> Why Us?
+                  <h6 onClick={()=>{
+                    props.setTo("Third")
+                  }}>
+                    <span>3</span>  Search Engine Optimization
                   </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
+                  {/* <p>
+                  What’s the point of an optimized website if no one can see it? We help our clients in taking their business to another level with Search Engine Optimization. Infobility's strategic approach towards SEO helps Google discover your website. 
+
+                  </p> */}
                 </li>
               </ul>
             </div>

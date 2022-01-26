@@ -5,9 +5,26 @@ import Navbar from '../comp/components/navbar/navbar'
 import ContactHeader from '../comp/components/Contact-header/contact-header'
 import ContactForm from '../comp/components/Contact-form/contact-form'
 import Footer from '../comp/components/footer/footer'
+import ContactForm1 from '../comp/components/Contact-partner/contact-form'
+import { useState , useEffect } from 'react'
 
 export default function Contact() {
-    // const [Trigger, setTrigger] = useState(false);
+    const [Trigger, setTrigger] = useState(false);
+    function xyz (){
+        if (!Trigger){
+            document.getElementById("partner").classList.add("hide-abc")
+            document.getElementById("contt").classList.remove("hide-abc")
+            window.location.hash="contt"
+        }
+        else if(Trigger===true){
+            document.getElementById("partner").classList.remove("hide-abc")
+            document.getElementById("contt").classList.add("hide-abc")
+            window.location.hash="partner"
+        }
+    }
+    useEffect(() => {
+        xyz()
+    }, [Trigger]);
     return (
         <>
         <Head >
@@ -19,7 +36,13 @@ export default function Contact() {
             <Navbar />
         <ContactHeader />
         <div className="main-content">
-          <ContactForm />
+            <div id='contt'>
+
+          <ContactForm setTrigger={setTrigger} /> 
+            </div>
+          <div id='partner' className='hide-abc'>
+            <ContactForm1 setTrigger={setTrigger} />
+          </div>
 
           <Footer hideBGCOLOR />
         </div>

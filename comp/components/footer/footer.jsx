@@ -50,28 +50,28 @@ const Footer = ({ hideBGCOLOR }) => {
               <ul>
                 <li>
                   
-                  <div className="sm-post">
+                  <div className="cont">
                     <p>
                     Website Development
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="sm-post">
+                  <div className="cont">
                     <p>
                     Digital marketing
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="sm-post">
+                  <div className="cont">
                     <p>
                     Website marketing for startup businesses.
                     </p>
                   </div>
                 </li>
                 <li>
-                  <div className="sm-post">
+                  <div className="cont">
                     <p>
                     Application Development
                     </p>
@@ -97,6 +97,9 @@ const Footer = ({ hideBGCOLOR }) => {
                 </a>
                 <a href="#0" target="_blank">
                   <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="#0" target="_blank">
+                  <i className="fab fa-twitter"></i>
                 </a>
               </div>
               <div className="copy-right">

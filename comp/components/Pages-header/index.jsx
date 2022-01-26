@@ -11,8 +11,8 @@ const PagesHeader = () => {
               <h1 className="color-font fw-700">
                 {/* Our dedicated team of creatives is bursting with talent,
                 experience and passion for what we do. */}
-                Let’s design your website with experts
-                Let’s design your website with experts
+                “We work for you in a team” 
+                Infobility success is built upon providing great quality services and on-time delivery.
               </h1>
             </div>
           </div>

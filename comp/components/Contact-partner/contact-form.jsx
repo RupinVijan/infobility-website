@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import ContactFromDate from "./form-info.json";
 import Swal from "sweetalert2";
 
-const ContactForm = () => {
+const ContactForm = (props , {img}) => {
   const maile = (e) => {
     e.preventDefault();
     emailjs
@@ -24,7 +24,7 @@ const ContactForm = () => {
     e.target['name'].value="";
     e.target['email'].value="";
     e.target['ph_no'].value="";
-    e.target['message'].value="";
+    e.target['partnerType'].value="";
     e.target['company'].value="";
   };
   return (
@@ -34,7 +34,7 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="form md-mb50">
-              <h4 className="fw-700 color-font mb-50">Get In Touch.</h4>
+              <h4 className="fw-700 color-font mb-50">Partner With Infobility</h4>
 
               <form id="contact-form" action="" onSubmit={maile}>
                 <div className="messages"></div>
@@ -79,9 +79,9 @@ const ContactForm = () => {
 
                   <div className="form-group">
                     <textarea
-                      id="form_message"
-                      name="message"
-                      placeholder="How can we help?"
+                      id="partnerType"
+                      name="partnerType"
+                      placeholder="What Type of partnership are you looking for?"
                       rows="4"
                       required="required"
                     ></textarea>
@@ -135,6 +135,39 @@ const ContactForm = () => {
         </div>
       </div>
     </section>
+    <section
+        className="call-action section-padding sub-bg bg-img"
+        style={{ backgroundImage: `url(${img ? img : "/img/patrn.svg"})` }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 col-lg-9">
+              <div className="content sm-mb30">
+                {/* <Split> */}
+                  <h6 className="wow words chars splitting" data-splitting>
+                    
+                  </h6>
+                  <h2 className="wow words chars splitting" data-splitting>
+                    Get In <br /> <b className="back-color">Touch</b>
+                    .
+                  </h2>
+                {/* </Split> */}
+              </div>
+            </div>
+
+            <div className="col-md-4 col-lg-3 valign">
+              
+            <button className="butn bord curve mt-30" onClick={
+                  ()=>{
+                    props.setTrigger(false)
+                  }
+                }>
+                  <span>Get In Touch</span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

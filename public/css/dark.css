@@ -9070,3 +9070,6 @@ a.col-md-12.popimg {
 .caption p{
   font-size: 1.5rem;
 }
+.hide-abc{
+  display:none;
+}
