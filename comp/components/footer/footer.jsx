@@ -95,11 +95,8 @@ const Footer = ({ hideBGCOLOR }) => {
                 <a href="https://www.instagram.com/infobility.ca/" target="_blank">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0" target="_blank">
+                <a href="https://www.linkedin.com/in/infobility-canada/" target="_blank">
                   <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="#0" target="_blank">
-                  <i className="fab fa-twitter"></i>
                 </a>
               </div>
               <div className="copy-right">

@@ -4793,6 +4793,7 @@ span:hover {
   -webkit-transition: all 0;
   -o-transition: all 0;
   transition: all 0;
+  cursor:default;
 }
 
 .clients .brands:hover .char {

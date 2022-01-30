@@ -9,14 +9,14 @@ import ContactForm1 from '../comp/components/Contact-partner/contact-form'
 import { useState , useEffect } from 'react'
 
 export default function Contact() {
-    const [Trigger, setTrigger] = useState(false);
+    const [Trigger, setTrigger] = useState(0);
     function xyz (){
-        if (!Trigger){
+        if (Trigger===1){
             document.getElementById("partner").classList.add("hide-abc")
             document.getElementById("contt").classList.remove("hide-abc")
             window.location.hash="contt"
         }
-        else if(Trigger===true){
+        else if(Trigger===2){
             document.getElementById("partner").classList.remove("hide-abc")
             document.getElementById("contt").classList.add("hide-abc")
             window.location.hash="partner"
@@ -34,7 +34,7 @@ export default function Contact() {
     </Head>
             <DarkTheme>
             <Navbar />
-        <ContactHeader />
+        <ContactHeader first= "Let's talk" second= " about your project with experts." />
         <div className="main-content">
             <div id='contt'>
 

@@ -71,7 +71,7 @@ const ContactForm = (props , {img}) => {
                   <div className="form-group">
                     <input
                       id="company"
-                      type="number"
+                      type="text"
                       name="company"
                       placeholder="Company Name"
                     />
@@ -123,7 +123,7 @@ const ContactForm = (props , {img}) => {
                 {/* <a href="#0" className="icon">
                   <i className="fab fa-twitter"></i>
                 </a> */}
-                <a href="#0" target="_blank" className="icon">
+                <a href="https://www.linkedin.com/in/infobility-canada/" target="_blank" className="icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://www.instagram.com/infobility.ca/" target="_blank" className="icon">
@@ -159,7 +159,7 @@ const ContactForm = (props , {img}) => {
               
             <button className="butn bord curve mt-30" onClick={
                   ()=>{
-                    props.setTrigger(false)
+                    props.setTrigger(1)
                   }
                 }>
                   <span>Get In Touch</span>

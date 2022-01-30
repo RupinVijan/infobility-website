@@ -13,7 +13,7 @@ const Intro2 = ( props) => {
                 <h6>{props.topic}</h6>
               </div>
               <h1 className="mb-10 fw-600">{props.heading}</h1>
-              <p>
+              <p style={{fontSize:'18px'}}>
                 {props.content}
               </p>
               <Link href="/contact">

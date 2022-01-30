@@ -107,7 +107,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center mt-30">
                           <h1 className="color-font">{slide.title}</h1>
-                          {slide?.content && <p>{slide.content}</p>}
+                          {/* {slide?.content && <p>{slide.content}</p>} */}
                           
                         </div>
                       </div>
@@ -145,11 +145,8 @@ const IntroWithSlider = ({ sliderRef }) => {
           <a href="https://www.instagram.com/infobility.ca/">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0">
+          <a href="https://www.linkedin.com/in/infobility-canada/">
             <i className="fab fa-linkedin"></i>
-          </a>
-          <a href="#0">
-            <i className="fab fa-twitter"></i>
           </a>
         </div>
       </div>

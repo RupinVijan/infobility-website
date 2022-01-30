@@ -71,7 +71,7 @@ const ContactForm = (props , {img}) => {
                   <div className="form-group">
                     <input
                       id="company"
-                      type="number"
+                      type="text"
                       name="company"
                       placeholder="Company Name"
                     />
@@ -123,7 +123,7 @@ const ContactForm = (props , {img}) => {
                 {/* <a href="#0" className="icon">
                   <i className="fab fa-twitter"></i>
                 </a> */}
-                <a href="#0" target="_blank" className="icon">
+                <a href="https://www.linkedin.com/in/infobility-canada/" target="_blank" className="icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://www.instagram.com/infobility.ca/" target="_blank" className="icon">
@@ -145,11 +145,11 @@ const ContactForm = (props , {img}) => {
               <div className="content sm-mb30">
                 {/* <Split> */}
                   <h6 className="wow words chars splitting" data-splitting>
-                   Want To Partner 
+                    
                   </h6>
                   <h2 className="wow words chars splitting" data-splitting>
-                    in Your<br /> <b className="back-color"> next project?</b>
-                    .
+                  Want To Partner <br /> <b className="back-color"> with InfoBility</b>
+                    ?
                   </h2>
                 {/* </Split> */}
               </div>
@@ -158,7 +158,7 @@ const ContactForm = (props , {img}) => {
             <div className="col-md-4 col-lg-3 valign">
                 <button className="butn bord curve mt-30"  onClick={
                   ()=>{
-                    props.setTrigger(true)
+                    props.setTrigger(2)
                   }
                 }>
                   <span>Want to partner ?</span>

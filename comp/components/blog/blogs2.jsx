@@ -34,12 +34,12 @@ const Blogs2 = () => {
                             <div>
                                 <div className="info">
                                     <a href="#0" className="date">
-                                        <span><i>06</i> August</span>
-                                    </a>
-                                    <span>/</span>
-                                    <a href="#0" className="tag">
                                         <span>Trending</span>
                                     </a>
+                                    {/* <span>/</span>
+                                    <a href="#0" className="tag">
+                                        <span>Trending</span>
+                                    </a> */}
                                 </div>
                                 <h5>
                                     <a href="#0">Crypto job ads jump 400 per cent in a year, says LinkedIn</a>
@@ -59,12 +59,12 @@ const Blogs2 = () => {
                             <div>
                                 <div className="info">
                                     <a href="#0" className="date">
-                                        <span><i>06</i> August</span>
-                                    </a>
-                                    <span>/</span>
-                                    <a href="#0" className="tag">
                                         <span>Trending</span>
                                     </a>
+                                    {/* <span>/</span>
+                                    <a href="#0" className="tag">
+                                        <span>Trending</span>
+                                    </a> */}
                                 </div>
                                 <h5>
                                     <a href="#0">The metaverse is gradually becoming a major sensation among corporate brands</a>
@@ -84,12 +84,12 @@ const Blogs2 = () => {
                             <div>
                                 <div className="info">
                                     <a href="#0" className="date">
-                                        <span><i>06</i> August</span>
+                                        <span>Trending</span>
                                     </a>
-                                    <span>/</span>
+                                    {/* <span>/</span>
                                     <a href="#0" className="tag">
                                         <span>WordPress</span>
-                                    </a>
+                                    </a> */}
                                 </div>
                                 <h5>
                                     <a href="#0">NFTs, Metaverse, Web3, and new realities of startup investing</a>

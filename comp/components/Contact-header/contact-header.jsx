@@ -2,9 +2,9 @@ import React from "react";
 import particlesConfig from "../../config/particle-config"
 import particlesBlackConfig from "../../config/pr-s-black";
 import Particles from "react-tsparticles";
-import ContentHeaderDate from "./contact-header.json";
+// import ContentHeaderDate from "./contact-header.json";
 
-const ContactHeader = ({ sliderRef, blackStar }) => {
+const ContactHeader = (props,{ sliderRef, blackStar }) => {
   return (
     <header
       ref={sliderRef}
@@ -16,10 +16,10 @@ const ContactHeader = ({ sliderRef, blackStar }) => {
             <div className="capt">
               <div className="text-center">
                 <h1 className="color-font mb-10 fw-700">
-                  {ContentHeaderDate.title.first} <br />
-                  {ContentHeaderDate.title.second}
+                  {props.first} <br />
+                  {props.second}
                 </h1>
-                <p>{ContentHeaderDate.content}</p>
+                {/* <p>{ContentHeaderDate.content}</p> */}
               </div>
             </div>
           </div>

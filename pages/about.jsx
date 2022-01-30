@@ -2,13 +2,13 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '../comp/components/navbar/navbar'
 import DarkTheme from '../comp/layouts/Dark'
-import PageHeader from "../comp/components/Pages-header/index"
 import CallToAction from '../comp/components/call-to-action/call-to-action'
 import Footer from '../comp/components/footer/footer'
 import MinimalArea from '../comp/components/Minimal-Area/minimal-area'
 import Intro2 from '../comp/components/Intro2/intro2'
 import Intro3 from '../comp/components/Intro2/intro3'
 import { useState ,useEffect } from 'react'
+import ContactHeader from '../comp/components/Contact-header/contact-header'
 
 export default function About() {
     const [GoTo, setGoTo] = useState("");
@@ -29,7 +29,7 @@ export default function About() {
     </Head>
         <DarkTheme>
             <Navbar />
-            <PageHeader />
+            <ContactHeader first= '“We work for you in a team”' second= "Infobility success is built upon providing great quality services and on-time delivery."/>
             <div className="main-content">
       {/* <Services style="4item" /> */}
       {/* <Blogs2 /> */}
