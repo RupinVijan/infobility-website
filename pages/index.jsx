@@ -9,7 +9,7 @@ import Footer from '../comp/components/footer/footer';
 import CallToAction from '../comp/components/call-to-action/call-to-action';
 import Blogs2 from '../comp/components/blog/blogs2';
 import Clients from '../comp/components/Clients/clients'
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import AOS from 'aos';
 // import 'aos/dist/aos.css';
 
@@ -47,7 +47,7 @@ export default function Home() {
         navbar.classList.remove("nav-scroll");
       }
     });
-  }, [fixedSlider, MainContent, navbarRef]);
+  }, [fixedSlider,  navbarRef]);
   return (
     <div className={styles.container}>
       <Head>

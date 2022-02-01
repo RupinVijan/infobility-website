@@ -10,7 +10,7 @@ import Intro3 from '../comp/components/Intro2/intro3'
 import { useState ,useEffect } from 'react'
 import ContactHeader from '../comp/components/Contact-header/contact-header'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 
 export default function About() {
     const [GoTo, setGoTo] = useState("");
