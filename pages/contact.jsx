@@ -12,7 +12,7 @@ import AOS from 'aos';
 
 export default function Contact() {
     const [Trigger, setTrigger] = useState(0);
-    function xyz (){
+    function xyz (Trigger){
         if (Trigger===1){
             document.getElementById("partner").classList.add("hide-abc")
             document.getElementById("contt").classList.remove("hide-abc")
@@ -25,11 +25,9 @@ export default function Contact() {
         }
     }
     useEffect(() => {
-        xyz()
-    }, [Trigger]);
-    useEffect(() => {
         AOS.init()
-    }, []);
+        xyz(Trigger)
+    }, [Trigger]);
     return (
         <>
         <Head >

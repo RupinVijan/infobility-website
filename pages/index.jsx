@@ -16,14 +16,16 @@ import AOS from 'aos';
 
 export default function Home() {
   const fixedSlider = React.useRef(null);
-  const MainContent = React.useRef(null);
+  // const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
- useEffect(() => {
-    AOS.init()
-}, []);
+
+  // useEffect(() => {
+  //   AOS.init()
+  // }, []);
+
   React.useEffect(() => {
-   
+    AOS.init()
     setInterval(() => {
       if (fixedSlider.current) {
         var slidHeight = fixedSlider.current.offsetHeight;
@@ -50,8 +52,6 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Infobility</title>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <meta name="description" content="Home Page for Infobility Website" />
         <link rel="icon" href="/IB.png" />
       </Head>

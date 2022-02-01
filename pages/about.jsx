@@ -14,22 +14,16 @@ import 'aos/dist/aos.css';
 
 export default function About() {
     const [GoTo, setGoTo] = useState("");
-    function setto(){
+    async function setto(GoTo){
         if(GoTo!=""){
             window.location.hash=GoTo
     }
     }
    
     useEffect(() => {
-        
-        setto()
+        AOS.init()
+        setto(GoTo)
     }, [GoTo]);
-        // AOS.init()
-        useEffect(() => {
-            AOS.init({
-              duration : 2000
-            });
-          }, []);
  
     return (
         <>
