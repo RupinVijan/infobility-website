@@ -10,7 +10,7 @@ import CallToAction from '../comp/components/call-to-action/call-to-action';
 import Blogs2 from '../comp/components/blog/blogs2';
 import Clients from '../comp/components/Clients/clients'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 
 export default function Home() {
   const fixedSlider = React.useRef(null);
