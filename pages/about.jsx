@@ -19,10 +19,14 @@ export default function About() {
             window.location.hash=GoTo
     }
     }
+   
     useEffect(() => {
-        AOS.init()
+        
         setto()
     }, [GoTo]);
+    useEffect(() => {
+        AOS.init()
+    }, []);
     return (
         <>
         <Head >

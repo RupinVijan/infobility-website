@@ -12,14 +12,17 @@ import Clients from '../comp/components/Clients/clients'
 import AOS from 'aos';
 // import 'aos/dist/aos.css';
 
+
 export default function Home() {
   const fixedSlider = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
-  
   React.useEffect(() => {
     AOS.init()
+}, []);
+  React.useEffect(() => {
+   
     setInterval(() => {
       if (fixedSlider.current) {
         var slidHeight = fixedSlider.current.offsetHeight;

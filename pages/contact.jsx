@@ -25,9 +25,11 @@ export default function Contact() {
         }
     }
     useEffect(() => {
-        AOS.init()
         xyz()
     }, [Trigger]);
+    useEffect(() => {
+        AOS.init()
+    }, []);
     return (
         <>
         <Head >
