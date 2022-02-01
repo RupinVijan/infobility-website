@@ -11,8 +11,8 @@ const Services = ({ style, lines }) => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
-            <div className="sec-head  text-center">
-              <h6 className="wow fadeIn" data-wow-delay=".5s">
+            <div className="sec-head  text-center" data-aos="zoom-in-up" data-aos-easing="ease-in-back" data-aos-delay="300">
+              <h6 className="wow"  >
                 About Us
               </h6>
               <h3 className="wow color-font">
@@ -21,7 +21,7 @@ const Services = ({ style, lines }) => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row"  data-aos="fade-in" data-aos-easing="ease-in-back" data-aos-delay="500">
           {style === "4item"
             ? featuresData.map((feature) => (
                 <div

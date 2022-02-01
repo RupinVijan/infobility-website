@@ -22,7 +22,7 @@ const MinimalArea = (props) => {
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="https://image.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg"
+                src="/img/aboutt.jpeg"
                 alt=""
               />
             </div>

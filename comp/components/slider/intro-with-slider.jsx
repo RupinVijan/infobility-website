@@ -105,7 +105,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                   <div className="container">
                     <div className="row justifyyy-content-center">
                       <div className="col-lg-8 col-md-10">
-                        <div className="caption center mt-30">
+                        <div className="caption center mt-30" data-aos="fade-in-up" data-aos-easing="ease-in-back" data-aos-delay="1000">
                           <h1 className="color-font">{slide.title}</h1>
                           {/* {slide?.content && <p>{slide.content}</p>} */}
                           

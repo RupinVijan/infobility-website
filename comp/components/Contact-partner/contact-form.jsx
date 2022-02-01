@@ -9,7 +9,7 @@ const ContactForm = (props , {img}) => {
     emailjs
       .sendForm(
         "service_pc7c8rl",
-        "template_74cgfsk",
+        "template_tniyj5o",
         e.target,
         "user_X81Py2WXDqIFqgsjtm2q1"
       )
@@ -29,7 +29,9 @@ const ContactForm = (props , {img}) => {
   };
   return (
     <>
-    <section className="contact section-padding">
+    <section className="contact section-padding"  data-aos="fade-in-up"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

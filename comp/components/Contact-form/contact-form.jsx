@@ -29,7 +29,9 @@ const ContactForm = (props , {img}) => {
   };
   return (
     <>
-    <section className="contact section-padding">
+    <section className="contact section-padding"  data-aos="fade-in-up"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

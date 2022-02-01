@@ -10,7 +10,9 @@ const ContactHeader = (props,{ sliderRef, blackStar }) => {
       ref={sliderRef}
       className="pages-header circle-bg valign position-re"
     >
-      <div className="container">
+      <div className="container" data-aos="zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500">
         <div className="row justify-content-center">
           <div className="col-lg-9 col-md-11">
             <div className="capt">

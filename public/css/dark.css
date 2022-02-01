@@ -4827,7 +4827,7 @@ span:hover {
   transition: all .4s;
   max-width: 75px;
   margin: auto;
-  filter:invert(1);
+  /* filter:invert(1); */
 }
 
 .clients .brands .img .link {
@@ -9073,4 +9073,17 @@ a.col-md-12.popimg {
 }
 .hide-abc{
   display:none;
+}
+
+.min-area .content ul.feat li:hover {
+cursor: pointer;
+}
+
+.blog-list .item h5:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

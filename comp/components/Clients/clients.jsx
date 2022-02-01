@@ -22,9 +22,12 @@ const Clients = ({theme}) => {
               </p>
             </div>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-8" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="400"
+>
             <div>
-              <div className="row bord">
+              <div className="row bord" >
                 {first.map((item) => (
                   <div key={item.id} className="col-md-3 col-6 brands">
                     <div

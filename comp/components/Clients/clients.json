@@ -2,19 +2,19 @@
     {
         "id": 1,
         "lightImage": "/img/clients/brands/light/01.png",
-        "darkImage": "https://img.icons8.com/ios/344/wordpress--v1.png",
+        "darkImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png",
         "url": "WordPress"
     },
     {
         "id": 2,
         "lightImage": "/img/clients/brands/light/02.png",
-        "darkImage": "https://img.icons8.com/ios-filled/344/angularjs.png",
+        "darkImage": "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
         "url": "Angular"
     },
     {
         "id": 3,
         "lightImage": "/img/clients/brands/light/03.png",
-        "darkImage": "https://img.icons8.com/ios-filled/344/javascript.png",
+        "darkImage": "https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640",
         "url": "JavaScript"
     },
     {
@@ -26,25 +26,25 @@
     {
         "id": 5,
         "lightImage": "/img/clients/brands/light/05.png",
-        "darkImage": "https://img.icons8.com/dotty/2x/react.png",
+        "darkImage": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
         "url": "React"
     },
     {
         "id": 6,
         "lightImage": "/img/clients/brands/light/06.png",
-        "darkImage": "https://img.icons8.com/ios-filled/344/add-database.png",
+        "darkImage": "/img/image-removebg-preview (4).png",
         "url": "Mongo DB"
     },
     {
         "id": 7,
         "lightImage": "/img/clients/brands/light/07.png",
-        "darkImage": "https://img.icons8.com/ios-filled/344/python.png",
+        "darkImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
         "url": "Python"
     },
     {
         "id": 8,
         "lightImage": "/img/clients/brands/light/08.png",
-        "darkImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
+        "darkImage": "/img/nextjs.png",
         "url": "Next Js"
     }
 ]

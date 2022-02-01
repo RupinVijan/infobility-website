@@ -9,14 +9,17 @@ import Footer from '../comp/components/footer/footer';
 import CallToAction from '../comp/components/call-to-action/call-to-action';
 import Blogs2 from '../comp/components/blog/blogs2';
 import Clients from '../comp/components/Clients/clients'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
   const fixedSlider = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
-
+  
   React.useEffect(() => {
+    AOS.init()
     setInterval(() => {
       if (fixedSlider.current) {
         var slidHeight = fixedSlider.current.offsetHeight;
@@ -43,6 +46,8 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Infobility</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <meta name="description" content="Home Page for Infobility Website" />
         <link rel="icon" href="/IB.png" />
       </Head>

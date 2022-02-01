@@ -9,6 +9,8 @@ import Intro2 from '../comp/components/Intro2/intro2'
 import Intro3 from '../comp/components/Intro2/intro3'
 import { useState ,useEffect } from 'react'
 import ContactHeader from '../comp/components/Contact-header/contact-header'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function About() {
     const [GoTo, setGoTo] = useState("");
@@ -18,6 +20,7 @@ export default function About() {
     }
     }
     useEffect(() => {
+        AOS.init()
         setto()
     }, [GoTo]);
     return (
@@ -35,13 +38,22 @@ export default function About() {
       {/* <Blogs2 /> */}
       {/* <Team /> */}
       <MinimalArea  setTo={setGoTo}/>
-      <div id="First">
+      <div id="First" data-aos="fade-right"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500"
+>
       <Intro2 imgg="https://image.freepik.com/free-vector/website-development-banner_33099-1687.jpg" topic="Designing Phase"  heading="Front-end Web Development" content="Our team optimizes and develops your website with the latest development languages so that a user can see and interact with them directly. "/>
       </div>
-      <div id="Second">
+      <div id="Second" data-aos="fade-left"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500"
+>
       <Intro3 imgg="https://image.freepik.com/free-photo/programmer-scanning-screen-his-smartwatch-with-smartphone-camera_1098-18710.jpg" topic="Development Phase"  heading="Back-end Web Development" content="Our team focuses primarily on the development of databases, backend logic, APIs and Servers for your business website.  "/>
       </div>
-        <div id="Third">
+        <div id="Third" data-aos="fade-right"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500"
+>
         <Intro2 imgg="https://image.freepik.com/free-vector/seo-analysis-isometric-composition-with-web-optimization-symbols_1284-32010.jpg" topic="Maintenance Phase"  heading="Search Engine Optimization" content="What’s the point of an optimized website if no one can see it? We help our clients in taking their business to another level with Search Engine Optimization. Infobility's strategic approach towards SEO helps Google discover your website. "   />
         </div>
       <CallToAction />
