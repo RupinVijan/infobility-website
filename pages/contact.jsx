@@ -37,8 +37,8 @@ export default function Contact() {
     </Head>
             <DarkTheme>
             <Navbar />
+        <div className="main-conten">
         <ContactHeader first= "Let's talk" second= " about your project with experts." />
-        <div className="main-content">
             <div id='contt'>
 
           <ContactForm setTrigger={setTrigger} /> 

@@ -2233,30 +2233,44 @@ span:hover {
 /* ====================== [ End navbar ] ====================== */
 /* ====================== [ Start Slider ] ====================== */
 .slider {
-  position: relative;
-}
-
-.slider.fixed-slider {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
 }
 
+.slider.fixed-slider {
+  position: relative;
+ 
+}
+
 .slider .swiper-slide-active {
   z-index: 3;
+  width: 100%;
 }
 
 .slider .parallax-slider {
   position: relative;
+  width: 100%;
 }
 
 .slider .parallax-slider .swiper-slide {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 100vh;
-  padding-bottom: 50px;
+  height: 100vh;
+  /* padding-bottom: 50px; */
+}
+
+@media only screen and (max-width: 600px) {
+  .slider .parallax-slider .swiper-slide {
+height: 50vh;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .slider .parallax-slider .swiper-slide {
+height: 70vh;
+  }
 }
 
 .slider .parallax-slider .swiper-slide .bg-img {
@@ -2266,6 +2280,9 @@ span:hover {
   bottom: 0;
   left: 0;
   background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+
 }
 
 .slider .parallax-slider .swiper-slide-active .caption h1[data-splitting] {
@@ -3142,10 +3159,18 @@ span:hover {
 }
 
 .pages-header {
-  min-height: 120vh;
+  /* min-height: 120vh; */
   margin: 0px;
   /* padding: 150px 0 0; */
-  position: relative;
+  position: absolute;
+  overflow: hidden ;
+  padding: 150px 0px;
+
+}
+@media only screen and (max-width: 600px) {
+  .pages-header {
+    padding: 30px 0px;
+  }
 }
 
 .pages-header .cont h1 {
@@ -3343,6 +3368,15 @@ span:hover {
   background: #111215;
   position: absolute;
   top: 100vh;
+  left: 0px;
+  right: 0px;
+  z-index: 6;
+  overflow-x: hidden !important;
+}
+.main-conten {
+  background: #111215;
+  position: absolute;
+  top: 0;
   left: 0px;
   right: 0px;
   z-index: 6;
@@ -4290,6 +4324,7 @@ span:hover {
 /* ====================== [ Start services ] ====================== */
 .services {
   position: relative;
+  /* margin-top: 100vh; */
   width: 100%;
 }
 

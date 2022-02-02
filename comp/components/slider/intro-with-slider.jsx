@@ -53,6 +53,7 @@ const IntroWithSlider = ({ sliderRef }) => {
       <div className="swiper-container parallax-slider">
         {!load ?
           <Swiper
+          style={{width:'100%'}}
             speed={1000}
             parallax={true}
             navigation={{
@@ -96,13 +97,14 @@ const IntroWithSlider = ({ sliderRef }) => {
             slidesPerView={1}
           >
             {introData.map((slide) => (
-              <SwiperSlide key={slide.id} className="swiper-slide">
-                <div
+              <SwiperSlide key={slide.id} className="swiper-slide" style={{width:'100%'}}>
+                <div 
                   className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
+                  style={{ backgroundImage: `url(${slide.image})` , width:'100%' }}
                   data-overlay-dark="1"
+                 
                 >
-                  <div className="container">
+                  <div className="container" >
                     <div className="row justifyyy-content-center">
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center mt-30" data-aos="fade-in-up" data-aos-easing="ease-in-back" data-aos-delay="1000">

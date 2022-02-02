@@ -34,8 +34,8 @@ export default function About() {
     </Head>
         <DarkTheme>
             <Navbar />
+            <div className="main-conten">
             <ContactHeader first= '“We work for you in a team”' second= "Infobility success is built upon providing great quality services and on-time delivery."/>
-            <div className="main-content">
       {/* <Services style="4item" /> */}
       {/* <Blogs2 /> */}
       {/* <Team /> */}

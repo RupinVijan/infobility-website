@@ -57,14 +57,16 @@ export default function Home() {
       </Head>
       <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef}/>
+      <div className="main-conten">
       <IntroWithSlider sliderRef={fixedSlider} />
-      <div className="main-content">
+      {/* <div className="main-content"> */}
       <Services style="4item" />
       <Clients  theme="dark" />
       <Blogs2 />
       <CallToAction />
       <Footer />
       </div>
+      {/* </div> */}
       </DarkTheme>
       
     </div>
