@@ -11,12 +11,12 @@ import Blogs2 from '../comp/components/blog/blogs2';
 import Clients from '../comp/components/Clients/clients'
 // import { useEffect } from 'react';
 import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import 'aos/dist/aos.css';
 
 
 export default function Home() {
   const fixedSlider = React.useRef(null);
-  // const MainContent = React.useRef(null);
+  const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
@@ -47,7 +47,7 @@ export default function Home() {
         navbar.classList.remove("nav-scroll");
       }
     });
-  }, [fixedSlider,  navbarRef]);
+  }, [fixedSlider,MainContent,  navbarRef]);
   return (
     <div className={styles.container}>
       <Head>

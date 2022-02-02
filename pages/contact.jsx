@@ -8,7 +8,7 @@ import Footer from '../comp/components/footer/footer'
 import ContactForm1 from '../comp/components/Contact-partner/contact-form'
 import { useState , useEffect } from 'react'
 import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import 'aos/dist/aos.css';
 
 export default function Contact() {
     const [Trigger, setTrigger] = useState(0);

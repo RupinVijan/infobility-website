@@ -9079,7 +9079,9 @@ a.col-md-12.popimg {
 cursor: pointer;
 }
 
-.blog-list .item h5:hover {
+.blog-list .item h5:hover ,
+.min-area .content ul.feat li h6:hover
+{
   background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);

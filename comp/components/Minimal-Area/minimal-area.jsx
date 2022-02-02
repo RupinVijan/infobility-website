@@ -32,7 +32,7 @@ const MinimalArea = (props) => {
               <h4 className="wow color-font">Development Process</h4>
               <p className="wow txt" data-splitting>
               Infobility team is composed of Graphic Designers and Full Stack developers. Our creative Team members take the highest level of pride in their work. 
-.
+
               </p>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
