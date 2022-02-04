@@ -2283,7 +2283,7 @@ height: 70vh;
 }
 @media only screen and (max-width: 600px) {
   .slider .parallax-slider .swiper-slide {
-    height: 50vh;
+    height: 40vh;
       }
       .slider .parallax-slider .swiper-slide-active .justifyyy-content-center .col-md-10 {
         width: 62%;
@@ -8112,7 +8112,7 @@ footer .item .copy-right p a {
 
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 84px;
   }
 
   .nav-scroll .navbar-collapse .nav-link,
@@ -8492,7 +8492,9 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 40px;
+    margin-top: -15px;
+    margin-left: 0px;
+    width: 74px;
   }
 
   .hamenu .menu-links .main-menu>li {
