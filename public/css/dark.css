@@ -2282,7 +2282,12 @@ height: 70vh;
   background-size: cover;
 }
 @media only screen and (max-width: 600px) {
-
+  .slider .parallax-slider .swiper-slide {
+    height: 50vh;
+      }
+      .slider .parallax-slider .swiper-slide-active .justifyyy-content-center .col-md-10 {
+        width: 62%;
+      }
 }
 
 .slider .parallax-slider .swiper-slide-active .caption h1[data-splitting] {

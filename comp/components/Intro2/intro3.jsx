@@ -8,7 +8,7 @@ const Intro3 = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="img">
+            <div className="img " style={{marginBottom:'35px'}}>
               <img src={props.imgg} alt="" />
             </div>
           </div>
