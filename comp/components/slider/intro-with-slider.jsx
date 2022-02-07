@@ -98,7 +98,7 @@ const IntroWithSlider = ({ sliderRef }) => {
             slidesPerView={1}
           >
             {introData.map((slide) => (
-              slide_i++ > -1 &&
+              slide_i++ >= 0 &&
               <SwiperSlide key={slide.id} className="swiper-slide" style={{width:'100%'}}>
                 <div 
                   className="bg-img valign"
