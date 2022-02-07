@@ -16,7 +16,7 @@ const Services = ({ style, lines }) => {
                 About Us
               </h6>
               <h3 className="wow color-font">
-                We are a new digital development agency
+                We are a Digital <br /> Design &amp; Development Agency
               </h3>
             </div>
           </div>

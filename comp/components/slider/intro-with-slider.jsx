@@ -44,6 +44,7 @@ const IntroWithSlider = ({ sliderRef }) => {
   const navigationPrevRef = React.useRef(null);
   const navigationNextRef = React.useRef(null);
   const paginationRef = React.useRef(null);
+  let slide_i = 0;
 
   return (
     <header
@@ -97,18 +98,19 @@ const IntroWithSlider = ({ sliderRef }) => {
             slidesPerView={1}
           >
             {introData.map((slide) => (
+              slide_i++ > -1 &&
               <SwiperSlide key={slide.id} className="swiper-slide" style={{width:'100%'}}>
                 <div 
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` , width:'100%' }}
                   data-overlay-dark="1"
-                 
                 >
                   <div className="container" >
                     <div className="row justifyyy-content-center">
                       <div className="col-lg-8 col-md-10">
-                        <div className="caption center mt-30" data-aos="fade-in-up" data-aos-easing="ease-in-back" data-aos-delay="1000">
-                          <h1 className="color-font">{slide.title}</h1>
+                        <div className="caption center mt-30" data-aos="zoom-in-left" data-aos-easing="ease-in" data-aos-delay="300">
+                          <h1 className="color-font"
+                            style={slide_i==2 ? { fontSize: '55px', lineHeight: 1.5 } : {}}>{slide_i==2 ? <span>Create Your Website, <br />Your Way</span> : slide.title}</h1>
                           {/* {slide?.content && <p>{slide.content}</p>} */}
                           
                         </div>

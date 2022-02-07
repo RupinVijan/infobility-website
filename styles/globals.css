@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: 768px) {
+  .logo { flex: 1; justify-content: center; align-items: center; display: flex !important; }
+  .logo > img { width: 130px; height: auto; margin-left: 55px; margin-top: 20px; }
+}

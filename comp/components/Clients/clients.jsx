@@ -22,27 +22,15 @@ const Clients = ({theme}) => {
               </p>
             </div>
           </div>
-          <div className="col-lg-8" data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="400"
->
+          <div className="col-lg-8">
             <div>
               <div className="row bord" >
                 {first.map((item) => (
                   <div key={item.id} className="col-md-3 col-6 brands">
                     <div
-                      className="item wow fadeIn"
-                      data-wow-delay={`${
-                        item.id == 1
-                          ? ".3"
-                          : item.id == 2
-                          ? ".6"
-                          : item.id == 3
-                          ? ".8"
-                          : item.id == 4
-                          ? ".3"
-                          : ""
-                      }s`}
+                      className="item wow"
+                      data-aos="zoom-in-up"
+                      data-wow-delay={(parseInt(item.id) * 500) + ''}
                     >
                       <div className="img">
                         {theme === "light" ? (
@@ -81,18 +69,9 @@ const Clients = ({theme}) => {
                     }`}
                   >
                     <div
-                      className="item wow fadeIn"
-                      data-wow-delay={`${
-                        item.id == 1
-                          ? ".4"
-                          : item.id == 2
-                          ? ".7"
-                          : item.id == 3
-                          ? ".5"
-                          : item.id == 4
-                          ? ".3"
-                          : ""
-                      }s`}
+                      className="item wow"
+                      data-aos="zoom-in-down"
+                      data-wow-delay={((item.id - 4) * 1000) + ''}
                     >
                       <div className="img">
                         {theme === "light" ? (
