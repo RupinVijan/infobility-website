@@ -9088,7 +9088,9 @@ section.next-prog.section-padding {
 .popup-img .row {
     margin: 0 15px;
 }
-
+.footer .logo{
+  justify-content: flex-start;
+}
 a.col-md-12.popimg {
     padding: 0;
 }
