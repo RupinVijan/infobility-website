@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 import Navbar from '../comp/components/navbar/navbar'
 import DarkTheme from '../comp/layouts/Dark'
 import CallToAction from '../comp/components/call-to-action/call-to-action'
@@ -21,6 +22,10 @@ export default function About() {
     }
    
     useEffect(() => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-230912530-1');
         AOS.init()
         setto(GoTo)
     }, [GoTo]);
@@ -32,6 +37,7 @@ export default function About() {
         <meta name="description" content="About Page for InfoBility Website." />
         <link rel="icon" href="/IB.png" />
     </Head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-230912530-1" />
         <DarkTheme>
             <Navbar />
             <div className="main-conten">

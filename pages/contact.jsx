@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 import DarkTheme from '../comp/layouts/Dark'
 import Navbar from '../comp/components/navbar/navbar'
 import ContactHeader from '../comp/components/Contact-header/contact-header'
@@ -25,6 +26,10 @@ export default function Contact() {
         }
     }
     useEffect(() => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-230912530-1');
         AOS.init()
         xyz(Trigger)
     }, [Trigger]);
@@ -34,7 +39,8 @@ export default function Contact() {
         <title>Infobility | Contact</title>
         <meta name="description" content="Contact Page for the InfoBility Website." />
         <link rel="icon" href="/IB.png" />
-    </Head>
+        </Head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-230912530-1" />
             <DarkTheme>
             <Navbar />
         <div className="main-conten">

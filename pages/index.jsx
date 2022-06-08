@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import React from "react";
 import styles from '../styles/Home.module.css'
 import DarkTheme from "../comp/layouts/Dark"
@@ -24,7 +25,14 @@ export default function Home() {
   //   AOS.init()
   // }, []);
 
+  
+ 
+
   React.useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-230912530-1');
     AOS.init()
     setInterval(() => {
       if (fixedSlider.current) {
@@ -55,6 +63,7 @@ export default function Home() {
         <meta name="description" content="Home Page for Infobility Website" />
         <link rel="icon" href="/IB.png" />
       </Head>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=UA-230912530-1" />
       <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef}/>
       <div className="main-conten">
