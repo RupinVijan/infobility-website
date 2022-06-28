@@ -106,7 +106,9 @@ const ContactForm = (props , {img}) => {
                 <h5>
                   <a href="mailto:infobility.ca@gmail.com">{ContactFromDate.email}</a>
                 </h5>
-                {/* <h5>{ContactFromDate.phone}</h5> */}
+                <h5>
+                <a href='tel:+1(705)808-1558'>+1 (705) 808-1558</a>
+                </h5>
               </div>
               {/* <h3 className="wow" data-splitting> */}
                 {/* Visit Us. */}

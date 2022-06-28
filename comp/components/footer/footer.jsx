@@ -24,7 +24,14 @@ const Footer = ({ hideBGCOLOR }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>infobility.ca@gmail.com</p>
+                    <p><a href='mailto:infobility.ca@gmail.com'>infobility.ca@gmail.com</a></p>
+                  </div>
+                </li>
+                <li>
+                  <span className="icon pe-7s-phone"></span>
+                  <div className="cont">
+                    <h6>Call Us</h6>
+                    <p><a href='tel:+1(705)808-1558'>+1 (705) 808-1558</a></p>
                   </div>
                 </li>
                 <li>
